@@ -52,7 +52,6 @@ body {
 }
 
 .top-menu span a:hover{
-  font-family: 'Pinyon Script', cursive;
   color: #FFFFFF;
   background-color: #000000;
   text-transform: uppercase;
@@ -84,7 +83,7 @@ footer h5{
   margin: auto;
 }
 
-/* ---- PROJETOS ---- */
+/* ---- PROJETOS HOME ---- */
 @media screen and (min-width: 769px) {
 .projects span{
   display: inline-block;
@@ -104,7 +103,6 @@ footer h5{
   color: #FFFFFF;
   background-color: #000000;
   text-transform: uppercase;
-  font-family: 'Pinyon Script', cursive;
 }
 
 @media screen and (max-width: 769px) {
@@ -271,6 +269,17 @@ footer h5{
   line-height: 1;
   }
 }
+
+@media screen and (max-height: 550px) {
+  .project-description{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 40pt;
+    width: 30%;
+    }
+  }
+
 
 .project-content img{
   width: 100%;
