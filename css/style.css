@@ -85,7 +85,6 @@ footer h5{
 }
 
 /* ---- PROJETOS ---- */
-
 @media screen and (min-width: 769px) {
 .projects span{
   display: inline-block;
@@ -289,6 +288,40 @@ footer h5{
   font-style: normal;
   text-decoration: none;
   color: #000;
+}
+
+@media screen and (min-width: 769px) {
+.nav-arrows span{
+  display: inline-block;
+  margin-top: -7px;
+  line-height: normal;
+  font-weight: 400;
+  color: #757575;
+  font-size: 1.2em;
+  padding-top: 7px;
+}
+}
+.nav-arrows span a, .nav-arrows span a:visited, .nav-arrows span a:active{
+  color: #000000;
+}
+
+.nav-arrows a:hover span{
+  color: #FFFFFF;
+  background-color: #000000;
+  text-transform: uppercase;
+  font-family: 'Pinyon Script', cursive;
+}
+
+@media screen and (max-width: 769px) {
+.nav-arrows span{
+  display: inline-block;
+  margin-top: -7px;
+  line-height: normal;
+  font-weight: 400;
+  color: #757575;
+  font-size: 2em;
+  padding-top: 7px;
+}
 }
 
 /*ABOUT*/
