@@ -54,7 +54,6 @@ body {
 .top-menu span a:hover{
   color: #FFFFFF;
   background-color: #000000;
-  text-transform: uppercase;
 }
 
 
@@ -119,9 +118,9 @@ footer h5{
 
 @media screen and (min-width: 769px) {
 .cidadejardim{
-  position: relative;
+  position: absolute;
   overflow: hidden;
-  width: 60%;
+  width: 30%;
   margin-top: 40pt;
 }
 
@@ -149,13 +148,12 @@ footer h5{
 
 @media screen and (min-width: 769px) {
 .vtex{
-  position: relative;
+  position: absolute;
   overflow: hidden;
-  width: 62%;
+  width: 27%;
   /*padding-top: 33%;*/
-  margin-top: 20pt;
-  float: right;
-  margin-right: 0%;
+  margin-top: 40pt;
+  margin-left: 35%;
 }
 .vtex video{
   object-fit: cover;
@@ -181,11 +179,11 @@ footer h5{
 
 @media screen and (min-width: 769px) {
 .claraboia{
-  position: relative;
+  position: absolute;
   overflow: hidden;
-  width: 71%;
+  width: 31%;
   /*padding-top: 41%;*/
-  margin-top: 20pt;
+  margin-top: 400pt;
   margin-left: 14.5%;
   }
 
@@ -212,6 +210,15 @@ footer h5{
 
 
 /* PROJECT PAGES */
+
+.project-description a, .project-description a:visited, .project-description a:active{
+  color: #000000;
+}
+
+.project-description a:hover{
+  color: #FFFFFF;
+  background-color: #000000;
+}
 
 @media screen and (min-width: 768px) {
 .project-content{
